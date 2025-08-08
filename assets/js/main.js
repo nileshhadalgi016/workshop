@@ -1,0 +1,4 @@
+// Shared header/footer injection
+function buildHeader(){ return `<div class="inner"><div class="brand"><a href="/index.html" style="color:#fff;font-weight:600;font-size:1.1rem">RoboWorkshop</a></div><nav><a href="/workshops.html">Workshops</a><a href="/tracks.html">Paths</a><a href="/resources.html">Resources</a><a href="/about.html">About</a><a href="/contact.html" class="btn primary" style="color:#fff;">Book</a></nav></div>`; }
+function buildFooter(){ const year=new Date().getFullYear(); return `<div class="inner"><p>© ${year} RoboWorkshop. All rights reserved.</p><p><a href='https://github.com' target='_blank' rel='noopener'>GitHub</a></p></div>`; }
+const header=document.getElementById('site-header'); if(header) header.innerHTML=buildHeader(); const footer=document.getElementById('site-footer'); if(footer) footer.innerHTML=buildFooter();

@@ -1,0 +1,6 @@
+{
+  "workshops": [
+    {"id":"arduino-basics","title":"Arduino Basics"},
+    {"id":"raspberry-pi-fundamentals","title":"Raspberry Pi Fundamentals"}
+  ]
+}
