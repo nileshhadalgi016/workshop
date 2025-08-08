@@ -1,1 +1,81 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Learning Paths | RoboWorkshop</title><meta name="description" content="Structured robotics learning paths."/><link rel="stylesheet" href="/assets/css/base.css"><link rel="stylesheet" href="/assets/css/layout.css"><link rel="stylesheet" href="/assets/css/components.css"><link rel="stylesheet" href="/assets/css/theme.css"></head><body><header id="site-header"></header><main class="container pv-xl"><h1>Learning Paths</h1><div class="grid gap-lg mt-lg"><div class="card"><h2>Beginner Path</h2><p>Foundations with Arduino & basic sensors.</p><ul><li>Arduino Basics</li><li>Sensors & Inputs</li><li>Simple Robotics</li></ul></div><div class="card"><h2>Intermediate Path</h2><p>Raspberry Pi, communication protocols, data logging.</p><ul><li>Raspberry Pi Fundamentals</li><li>I2C & SPI Devices</li><li>Data Logging & Dashboards</li></ul></div><div class="card"><h2>Advanced Path</h2><p>Edge AI, robotics integration, deployment.</p><ul><li>Edge AI with Vision</li><li>Autonomous Robotics</li><li>IoT Cloud Integration</li></ul></div></div></main><footer id="site-footer"></footer><script src="/assets/js/main.js" type="module"></script></body></html>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Learning Paths | RoboWorkshop</title><meta name="description" content="Structured robotics learning paths."/><link rel="stylesheet" href="/assets/css/base.css"><link rel="stylesheet" href="/assets/css/layout.css"><link rel="stylesheet" href="/assets/css/components.css"><link rel="stylesheet" href="/assets/css/theme.css"></head><body><header id="site-header"></header><main class="container pv-xl"><h1>Learning Paths</h1>
+<p class="lead">Choose a structured journey. Each path stacks practical builds so you gain confidence layer by layer.</p>
+
+<nav class="path-nav actions mt-md" aria-label="Path shortcuts">
+  <a class="btn" href="#beginner">Beginner</a>
+  <a class="btn" href="#intermediate">Intermediate</a>
+  <a class="btn" href="#advanced">Advanced</a>
+</nav>
+
+<section id="beginner" class="path-detail section">
+  <h2>Beginner Path <span class="badge">Level 1</span></h2>
+  <p><strong>Who it's for:</strong> New to electronics / programming. No prior hardware experience required.</p>
+  <p><strong>Goal:</strong> Comfort with microcontroller basics, reading sensors, and building simple interactive prototypes.</p>
+  <h3>Outcomes</h3>
+  <ul class="outcomes">
+    <li>Understand digital vs analog I/O</li>
+    <li>Wire & read common sensors (temperature, light, motion)</li>
+    <li>Build a simple autonomous gadget (LED feedback + sensor trigger)</li>
+    <li>Confident using serial monitor for debugging</li>
+  </ul>
+  <h3>Modules</h3>
+  <ol class="module-list">
+    <li><a href="workshop.html?id=arduino-basics">Arduino Basics</a> <span class="module-meta">3h • Live Build</span></li>
+    <li><a href="workshop.html?id=sensors-and-inputs">Sensors & Inputs</a> <span class="module-meta">3h • Labs</span></li>
+    <li><span class="coming">Simple Robotics (Coming Soon)</span> <span class="module-meta">4h • Project</span></li>
+  </ol>
+  <div class="actions mt-md"><a class="btn primary" href="workshop.html?id=arduino-basics" aria-label="Start Beginner Path with Arduino Basics">Start Path</a><a class="btn outline" href="contact.html?workshop=Beginner%20Path%20Consult" aria-label="Book a beginner path consult">Ask a Question</a></div>
+</section>
+
+<section id="intermediate" class="path-detail section">
+  <h2>Intermediate Path <span class="badge">Level 2</span></h2>
+  <p><strong>Who it's for:</strong> Makers who finished Beginner Path or have basic Arduino knowledge, wanting Linux + connectivity.</p>
+  <p><strong>Goal:</strong> Move from microcontrollers to embedded Linux, interface multiple devices, and capture structured data.</p>
+  <h3>Outcomes</h3>
+  <ul class="outcomes">
+    <li>Comfortable with Raspberry Pi OS & shell basics</li>
+    <li>Use Python to control GPIO & handle events</li>
+    <li>Integrate I2C / SPI modules</li>
+    <li>Log & visualize sensor data locally</li>
+  </ul>
+  <h3>Modules</h3>
+  <ol class="module-list">
+    <li><a href="workshop.html?id=raspberry-pi-fundamentals">Raspberry Pi Fundamentals</a> <span class="module-meta">4h • Guided</span></li>
+    <li><span class="coming">I2C & SPI Devices (Coming Soon)</span> <span class="module-meta">3h • Labs</span></li>
+    <li><span class="coming">Data Logging & Dashboards (Coming Soon)</span> <span class="module-meta">4h • Project</span></li>
+  </ol>
+  <div class="actions mt-md"><a class="btn primary" href="workshop.html?id=raspberry-pi-fundamentals" aria-label="Start Intermediate Path with Raspberry Pi Fundamentals">Start Path</a><a class="btn outline" href="contact.html?workshop=Intermediate%20Path%20Consult" aria-label="Book an intermediate path consult">Path Consult</a></div>
+</section>
+
+<section id="advanced" class="path-detail section">
+  <h2>Advanced Path <span class="badge">Level 3</span></h2>
+  <p><strong>Who it's for:</strong> Builders comfortable with Pi / MCU basics, aiming to integrate vision & deploy intelligent edge systems.</p>
+  <p><strong>Goal:</strong> Design end-to-end edge AI robotics prototypes and integrate cloud / deployment workflows.</p>
+  <h3>Outcomes</h3>
+  <ul class="outcomes">
+    <li>Capture & preprocess camera streams</li>
+    <li>Run optimized vision models at the edge</li>
+    <li>Fuse multi-sensor data for decisions</li>
+    <li>Plan integration with IoT / cloud services</li>
+  </ul>
+  <h3>Modules</h3>
+  <ol class="module-list">
+    <li><a href="workshop.html?id=edge-vision-ai">Edge Vision AI</a> <span class="module-meta">5h • Deep Dive</span></li>
+    <li><span class="coming">Autonomous Robotics (Coming Soon)</span> <span class="module-meta">6h • Capstone</span></li>
+    <li><span class="coming">IoT Cloud Integration (Coming Soon)</span> <span class="module-meta">4h • Integration</span></li>
+  </ol>
+  <div class="actions mt-md"><a class="btn primary" href="workshop.html?id=edge-vision-ai" aria-label="Start Advanced Path with Edge Vision AI">Start Path</a><a class="btn outline" href="contact.html?workshop=Advanced%20Path%20Consult" aria-label="Book an advanced path consult">Strategy Call</a></div>
+</section>
+
+<section class="section">
+  <h2>Progression & Time Investment</h2>
+  <table aria-label="Estimated hours per path">
+    <thead><tr><th>Path</th><th>Core Hours (Current)</th><th>Planned Expansion</th><th>Primary Focus</th></tr></thead>
+    <tbody>
+      <tr><td>Beginner</td><td>6–10</td><td>+ Robotics Project</td><td>Foundations & Sensors</td></tr>
+      <tr><td>Intermediate</td><td>7–11</td><td>+ Data Dashboards</td><td>Embedded Linux & Protocols</td></tr>
+      <tr><td>Advanced</td><td>5–15</td><td>+ Cloud & Autonomy</td><td>Edge AI & Integration</td></tr>
+    </tbody>
+  </table>
+</section>
+</main><footer id="site-footer"></footer><script src="/assets/js/main.js" type="module"></script></body></html>
